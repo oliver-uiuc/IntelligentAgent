@@ -18,12 +18,12 @@ In this task, use a discount factor of 0.99.
 
 A further question is to design a more complicated maze environment and
 re-run the algorithms designed for Task 1 on it. How does the number of states and the
-complexity of the environment affect convergence? How complex can you make the
+complexity of the environment affect convergence? How complex can we make the
 environment and still be able to learn the right policy?
 
 ## Task 2: Repeated Prisoners Dilemma
 
-As you all know, in the game the Prisoners’ Dilemma, the dominant strategy equilibrium is for agents to defect, even though both agents would be best off cooperating. 
+In the game the Prisoners’ Dilemma, the dominant strategy equilibrium is for agents to defect, even though both agents would be best off cooperating. 
 If we move to a repeated version of the Prisoners’ Dilemma, then this lack of cooperation can possibly disappear.
 
 In a repeated game, a given game (often thought of in normal form) is played multiple times (possibly infinitely many times) 
@@ -39,6 +39,6 @@ For example, in the Trigger strategy, an agent starts by cooperating but if the 
 The Trigger strategy forms a Nash equilibrium both with itself and with TfT.
 
 A strategy is developed for an agent in a three player repeated prisoners’ dilemma. In this simulation, triples of players will play each other 
-repeatedly in a ‘match’. A match consists of about 100 rounds, and your score from that match is the average of the payoffs from each round of 
-that match. For each round, your strategy is given a list of the previous plays (so you can remember what your opponent did) and must compute 
+repeatedly in a ‘match’. A match consists of about 100 rounds, and the score from that match is the average of the payoffs from each round of 
+that match. For each round, our strategy is given a list of the previous plays (so we can remember what our opponent did) and must compute 
 the next action. We represent cooperation by the integer 0, and defection by the integer 1.
